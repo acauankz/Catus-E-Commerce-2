@@ -1,0 +1,131 @@
+@media screen and (min-width: 425px) {
+  .header-container {
+    width: 325px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .header-container {
+    width: 445px;
+  }
+  .desktop-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .header-container {
+    width: 530px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    width: 720px;
+  }
+  .header-search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-search-bar input {
+    width: 220px;
+    height: 46px;
+    padding: 15px;
+    background: #ececec;
+    color: #333;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 4px;
+  }
+  .header-search-bar button {
+    width: 80px;
+    height: 46px;
+    border-radius: 0px 4px 4px 0px;
+    background: #a4bebf;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .header-container {
+    width: 800px;
+  }
+  .header-search-bar input {
+    width: 290px;
+  }
+  .header-search-bar button {
+    width: 85px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header-container {
+    width: 950px;
+  }
+  .header-search-bar input {
+    width: 380px;
+    height: 46px;
+  }
+  .header-search-bar button {
+    width: 140px;
+    height: 46px;
+  }
+  .header-nav-bar-menu {
+    width: 950px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-nav-bar-menu a {
+    color: #404040;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+  }
+  #mobile-menu-icon {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .header-container {
+    width: 1080px;
+  }
+  .header-search-bar input {
+    width: 468px;
+  }
+  .header-nav-bar-menu {
+    width: 1080px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header-container {
+    width: 1250px;
+  }
+  .header-nav-bar-menu {
+    width: 1250px;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .header-container {
+    width: 1440px;
+  }
+  .header-nav-bar-menu {
+    width: 1440px;
+  }
+}

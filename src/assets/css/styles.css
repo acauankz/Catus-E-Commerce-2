@@ -134,3 +134,118 @@
   right: -20px;
 }
 /* -------- PRODUCT SLIDER -------- */
+
+/* -------- FOOTER -------- */
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-newsletter {
+  width: 100%;
+  margin-top: 50px;
+  padding: 15px 10px;
+  gap: 15px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  background: #f6f6f6;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer-newsletter img {
+  display: none;
+}
+.footer-newsletter input {
+  width: 290px;
+  height: 45px;
+  padding: 0 15px;
+  border-radius: 8px;
+  border: 1px solid #d7d7d7;
+  background: #fff;
+  color: #333;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer-newsletter button {
+  width: 290px;
+  height: 45px;
+  border-radius: 8px;
+  background: #404040;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer-contacts {
+  width: 100%;
+  padding: 10px 15px;
+  background: #404040;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+}
+.footer-social-medias {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  gap: 5px;
+}
+.footer-social-medias p {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+.social-medias {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.footer-helper-content {
+  width: 100%;
+}
+.footer-contacts-title {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.grey-bar {
+  width: 100%;
+  height: 1px;
+  position: relative;
+  background: #cfcfcf;
+}
+.green-bar {
+  position: absolute;
+  background: #32bcad;
+  height: 2px;
+  width: 50%;
+}
+.footer-description {
+  padding-top: 15px;
+}
+.footer-description ul li {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.5px;
+  list-style: none;
+}
+/* -------- FOOTER -------- */

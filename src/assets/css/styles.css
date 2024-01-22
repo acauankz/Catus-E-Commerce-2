@@ -99,6 +99,7 @@
 .product-slider-container {
   max-width: 1200px;
   width: 95%;
+  margin: 0 auto;
 }
 .product-title-wrapper {
   display: flex;
@@ -106,7 +107,40 @@
   justify-content: center;
 }
 .product-title {
+  padding: 17px 0;
   font-size: 18px;
+  border-bottom: 1px solid #cfcfcf;
+  display: flex;
+  justify-content: center;
+}
+.product {
+  width: 290px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  color: #484848;
+}
+.product p {
+  text-align: left;
+}
+.product span {
+  text-decoration: line-through;
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+}
+.product-btn {
+  width: 260px;
+  height: 50px;
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 4px;
+  background: #a4bebf;
 }
 .slider-scrollbar {
   height: 24px;

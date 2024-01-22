@@ -5,6 +5,9 @@
   .footer-description ul {
     columns: 2;
   }
+  .product-title {
+    font-size: 20px;
+  }
 }
 
 @media screen and (min-width: 500px) {
@@ -25,6 +28,10 @@
   .carousel .image {
     height: 180px;
   }
+  .product-title {
+    font-size: 22px;
+    width: 470px;
+  }
 }
 
 @media screen and (min-width: 700px) {
@@ -42,6 +49,10 @@
   }
   .carousel .image {
     height: 200px;
+  }
+  .product-title {
+    font-size: 24px;
+    width: 640px;
   }
 }
 
@@ -80,6 +91,10 @@
   .carousel .image {
     height: 235px;
   }
+  .product-title {
+    font-size: 26px;
+    width: 700px;
+  }
 }
 
 @media screen and (min-width: 900px) {
@@ -91,6 +106,10 @@
   }
   .header-search-bar button {
     width: 85px;
+  }
+  .product-title {
+    font-size: 28px;
+    width: 820px;
   }
 }
 
@@ -158,6 +177,9 @@
   .carousel .image {
     height: 290px;
   }
+  .product-title {
+    width: 930px;
+  }
 }
 
 @media screen and (min-width: 1250px) {
@@ -185,6 +207,9 @@
   }
   .carousel .image {
     height: 330px;
+  }
+  .product-title {
+    width: 1150px;
   }
 }
 

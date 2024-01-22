@@ -19,7 +19,9 @@
     <header>
       <div class="header-wrapper">
         <div class="header-container">
-          <img src="/src/assets/img/logo01.png" alt="Catus logo" />
+          <a href="index.html">
+            <img src="/src/assets/img/logo01.png" alt="Catus logo" />
+          </a>
           <div class="header-search-bar">
             <input type="text" placeholder="O que você está buscando?" />
             <button>Buscar</button>
@@ -62,47 +64,43 @@
       </div>
     </header>
     <main>
-      <!-- <section class="slider-container">
-        <div class="slider-wrapper">
-          <div class="slider-content first">
-            <img
-              class="slide-img"
-              src="/src/assets/img/living-room.png"
-              alt="Modern living room photo"
-            />
-          </div>
-          <div class="slider-content">
-            <img
-              class="slide-img"
-              src="/src/assets/img/bedroom.png"
-              alt="Modern bedroom photo"
-            />
-          </div>
-          <div class="slider-content">
-            <img
-              class="slide-img"
-              src="/src/assets/img/bathroom.png"
-              alt="Modern bathroom photo"
-            />
-          </div>
-          <div class="slider-content">
-            <img
-              class="slide-img"
-              src="/src/assets/img/kitchen.png"
-              alt="Modern kitchen photo"
-            />
-          </div>
-          <div class="slider-content">
-            <img
-              class="slide-img"
-              src="/src/assets/img/restroom.png"
-              alt="Modern restroom photo"
-            />
-          </div>
+      <section>
+        <div class="carousel">
+          <img
+            class="image active"
+            src="/src/assets/img/living-room.png"
+            alt="Modern living room photo"
+          />
+          <img
+            class="image"
+            src="/src/assets/img/bedroom.png"
+            alt="Modern bedroom photo"
+          />
+          <img
+            class="image"
+            src="/src/assets/img/bathroom.png"
+            alt="Modern bathroom photo"
+          />
+          <img
+            class="image"
+            src="/src/assets/img/kitchen.png"
+            alt="Modern kitchen photo"
+          />
+          <img
+            class="image"
+            src="/src/assets/img/restroom.png"
+            alt="Modern restroom photo"
+          />
         </div>
-      </section> -->
-
-      <!-- <section class="product-slider-container">
+        <div class="buttons-carousel">
+          <button class="button selected"></button>
+          <button class="button"></button>
+          <button class="button"></button>
+          <button class="button"></button>
+          <button class="button"></button>
+        </div>
+      </section>
+      <section class="product-slider-container">
         <div class="product-title-wrapper">
           <h1 class="product-title">Oportunidades para economizar</h1>
         </div>
@@ -183,7 +181,6 @@
           />
         </div>
       </section>
-      <aside class="cartTab"></aside> -->
     </main>
     <footer>
       <div class="footer-container">
@@ -196,7 +193,9 @@
         </div>
         <div class="footer-contacts">
           <div class="footer-social-medias">
-            <img src="/src/assets/img/logo02.png" alt="Catus footer logo" />
+            <a href="index.html">
+              <img src="/src/assets/img/logo02.png" alt="Catus footer logo" />
+            </a>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
               vitae orci velit. Vestibulum lacus lorem, rutrum non tempor sit
@@ -272,5 +271,6 @@
       </div>
     </footer>
     <script src="/src/assets/js/index.js"></script>
+    <script src="/src/assets/js/cart.js"></script>
   </body>
 </html>
